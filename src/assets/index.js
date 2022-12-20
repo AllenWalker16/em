@@ -38,8 +38,20 @@ import pic6 from "./pic6.png"
 import pic7 from "./pic7.png"
 import pic8 from "./pic8.png"
 import embg from "./embg.jpg"
+import oracle from "./emoracle.png"
+import chaos from "./emchaos.png"
+import allen from "./EMAllen.png"
+import prez from "./EMPrez.png"
+import ujo from "./EMUjoeva.png"
+import lykos from "./emlykos.png"
 
 export {
+  oracle,
+  chaos,
+  allen,
+  prez,
+  ujo,
+  lykos,
   airbnb,
   bill,
   binance,

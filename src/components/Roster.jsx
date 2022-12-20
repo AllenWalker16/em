@@ -1,20 +1,20 @@
 import React from 'react'
-import { pic5 } from '../assets'
+import { pic5, pic1, embg, chaos, allen, prez, ujo, lykos, oracle } from '../assets'
 
 const roster = () => {
   return (
-    <div id='about' className='h-screen w-screen'>
-      <div className=' h-full w-full'>
-        <img src={pic5} className='absolute blur-sm opacity-30 sm:opacity-50 h-full w-full object-cover' alt="" />
-        <div className='relative text-white'>
-          <h1 className='text-2xl md:text-5xl sm:text-6xl font-[800] underline decoration-secondary underline-offset-[12px] text-white space-x-2 p-6 tracking-widest'>02 - ROSTER</h1>
-          {/* container for player roster data */}
-          <div>
-            
-          </div>
-        </div>
+    <section>
+      <h1 className='text-2xl md:text-5xl sm:text-6xl font-[800] underline decoration-secondary underline-offset-[12px] text-white space-x-2 p-6 tracking-widest'>03 - ROSTER</h1>
+      <div className='p-6'>
+        <a href="" className='hover:opacity-40 hover:ease-in duration-300'><img src={oracle} alt="" /></a>
+        <a href="https://tracker.gg/valorant/profile/riot/Monarch%23FQR/overview" className='hover:opacity-40 hover:ease-in duration-300'><img src={chaos} alt="" /></a>
+        <a href="" className='hover:opacity-40 hover:ease-in duration-300'><img src={lykos} alt="" /></a>
+        <a href="" className='hover:opacity-40 hover:ease-in duration-300'><img src={prez} alt="" /></a>
+        <a href="https://tracker.gg/valorant/profile/riot/ujo4eva%23MAIN/overview" className='hover:opacity-40 hover:ease-in duration-300'><img src={ujo} alt="" /></a>
+        <a href="https://tracker.gg/valorant/profile/riot/Allen%231616/overview" className='hover:opacity-40 hover:ease-in duration-300'><img src={allen} alt="" /></a>
       </div>
-    </div>
+    </section>
+
   )
 }
 

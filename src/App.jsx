@@ -22,11 +22,11 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <About />
           <Roster />
-          <Tournaments />
+          {/* <Tournaments />
           <Players />
           <Sponsors />
           <Footer />
-          <Wallpapers />
+          <Wallpapers /> */}
         </div>
       </div>
     </div>
