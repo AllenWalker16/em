@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./style"
-import { About, Hero, Navbar, Roster, Tournaments, Players, Sponsors, Footer, Wallpapers } from "./components";
+import { About, Hero, Navbar, Roster, Typo, Partners, Footer, Wallpapers } from "./components";
 
 const App = () => {
   return (
@@ -22,11 +22,9 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <About />
           <Roster />
-          {/* <Tournaments />
-          <Players />
-          <Sponsors />
+          <Typo />
+          <Partners />
           <Footer />
-          <Wallpapers /> */}
         </div>
       </div>
     </div>

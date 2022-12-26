@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Sponsors = () => {
+const Partners = () => {
   return (
     <div>Sponsors</div>
   )
 }
 
-export default Sponsors
+export default Partners

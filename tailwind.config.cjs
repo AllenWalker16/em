@@ -16,6 +16,7 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif'],
         jose: ['Josefin Sans', 'sans-serif'],
         ral: ['Raleway', 'sans-serif'],
+        oct: ['TTOctosquaresExp-DBold', 'sans-serif'],
         octbold: ['oct-bold', 'sans-serif'],
         octreg: ['oct-reg', 'sans-serif'],
         octmed: ['oct-med', 'sans-serif'],

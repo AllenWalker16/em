@@ -1,39 +1,20 @@
+@import url('//db.onlinewebfonts.com/c/002da187594e294fb15f6aa42dad9bd9?family=TTOctosquaresExp-DBold');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base{
-  @font-face {
-    font-family: TTOctosquares-Bold ;
-    src: url('../public/fonts/TTOctosquares-Bold.ttf') format('ttf');
-    font-weight:700;
-  },
-  @font-face {
-    font-family: oct-medium ;
-    src: url('../public/fonts/TTOctosquares-Medium.ttf') format('ttf');
-    font-weight:700;
-  },
-  @font-face {
-    font-family: oct-reg ;
-    src: url('../public/fonts/TTOctosquares-Regular.ttf') format('ttf');
-    font-weight:700;
-  },
-  @font-face {
-    font-family: oct-mexp ;
-    src: url('../public/fonts/TTOctosquare-Exp-Medium.ttf') format('ttf');
-    font-weight:700;
-  }
-  /* .img{
-    background-image: url("../assets/pic5.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
   .anime{
     -webkit-text-stroke: 1px black;
   }
   li a{
     @apply hover:border-b-[2px] border-secondary ease-in-out duration-100 pb-4
+  }
+  .clipped {
+    width: 200px;
+    height: 200px;
+    -webkit-clip-path: polygon(0% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    clip-path: polygon(0% 0%, 80% 0%, 100% 20%, 100% 100%, 80% 100%, 20% 100%, 0% 80%, 0% 0%);
   }
 }
