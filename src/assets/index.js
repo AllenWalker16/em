@@ -1,8 +1,8 @@
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
-import binance from "./binance.png";
+import binance from "./binance.svg";
 import card from "./card.png";
-import coinbase from "./coinbase.png";
+import coinbase from "./coinbase.svg";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
@@ -44,6 +44,13 @@ import allen from "./EMAllen.png"
 import prez from "./EMPrez.png"
 import ujo from "./EMUjoeva.png"
 import lykos from "./emlykos.png"
+import intel from "./intel.svg"
+import nvidia from "./nvidia.svg"
+import razer from "./razer-1.svg"
+import aimlab from "./aimlab.svg"
+import twitch from "./twitch.svg"
+import youtube from "./youtube.svg"
+
 
 export {
   oracle,
@@ -91,5 +98,11 @@ export {
   pic6,
   pic7,
   pic8,
-  embg
+  embg,
+  razer,
+  intel,
+  nvidia,
+  aimlab,
+  youtube,
+  twitch
 };

@@ -24,7 +24,6 @@ const App = () => {
           <Roster />
           <Typo />
           <Partners />
-          <Footer />
         </div>
       </div>
     </div>

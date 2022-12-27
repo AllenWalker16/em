@@ -1,5 +1,5 @@
 import React from 'react'
-import {pic8} from '../assets'
+import {pic8, embg} from '../assets'
 
 const Typo = () => {
   return (
@@ -32,7 +32,7 @@ const Typo = () => {
               <p className='ml-2'>Bold</p> 
             </div>
           </div>
-          <div className='p-6 flex space-x-10'>
+          <div className='p-6 flex space-x-5'>
             <div className='w-[120px] h-[130px] bg-secondary clipped flex items-center justify-center text-primary font-bold font-oct text-sm border-2 border-primary'>#cf0038</div>
             <div className='w-[120px] h-[130px] bg-primary clipped flex items-center justify-center text-dimWhite font-bold font-oct text-sm border-2 '>#292d39</div>
             <div className='w-[120px] h-[130px] bg-white clipped flex items-center justify-center text-secondary font-bold font-oct text-sm border-2 border-secondary'>#FFFFFF</div>
